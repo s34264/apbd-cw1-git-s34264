@@ -27,4 +27,13 @@ public class Calculator {
         int div = a / b;
         System.out.println(div);
     }
+
+    public void calculateAverage(int[] nums){
+        int sum = 0;
+        for(int i = 0; i<nums.length; i++){
+            sum += nums[i];
+        }
+        int average  = sum / nums.length;
+        System.out.println(average);
+    }
 }
