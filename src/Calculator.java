@@ -36,4 +36,8 @@ public class Calculator {
         int average  = sum / nums.length;
         System.out.println(average);
     }
+
+    public void calculateMin(int[] nums){
+
+    }
 }
