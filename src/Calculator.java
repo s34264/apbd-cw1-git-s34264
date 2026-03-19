@@ -46,12 +46,15 @@ public class Calculator {
     }
 
     public void calculateMax(int[] nums){
+        //początkowe maksimum
         int max = nums[0];
         for(int i = 1; i<nums.length; i++){
+            //szukamy maksiumum
             if(nums[i] > max){
                 max = nums[i];
             }
         }
+        //wyświetlamy
         System.out.println(max);
     }
 }
