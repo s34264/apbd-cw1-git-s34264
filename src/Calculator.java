@@ -36,4 +36,17 @@ public class Calculator {
         int average  = sum / nums.length;
         System.out.println(average);
     }
+
+    public void calculateMin(int[] nums){
+        //ustalamy początkowe minnimum
+        int min = nums[0];
+        for(int i = 1; i<nums.length; i++){
+            //szukamy najmniejszej wartości z tablicy
+            if(nums[i] < min){
+                min = nums[i];
+            }
+        }
+        //wyświetlamy wynik
+        System.out.println(min);
+    }
 }
