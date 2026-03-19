@@ -1,8 +1,8 @@
 public class Calculator {
 
     public void sum(int a, int b) {
-        int suma = a + b;
-        System.out.println(suma);
+        int sum = a + b;
+        System.out.println(sum);
     }
 
     public void sumArray(int[] tab){
