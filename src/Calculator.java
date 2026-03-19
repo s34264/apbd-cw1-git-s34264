@@ -44,4 +44,8 @@ public class Calculator {
         //wyświetlamy wynik
         System.out.println(min);
     }
+
+    public void calculateMax(int[] nums){
+
+    }
 }
