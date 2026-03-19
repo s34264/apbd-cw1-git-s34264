@@ -23,11 +23,6 @@ public class Calculator {
         System.out.println(mul);
     }
 
-    public void div(int a, int b) {
-        int div = a / b;
-        System.out.println(div);
-    }
-
     public void calculateAverage(int[] nums){
         int sum = 0;
         for(int i = 0; i<nums.length; i++){
