@@ -5,6 +5,14 @@ public class Calculator {
         System.out.println(sum);
     }
 
+    public void sumArray(int[] tab){
+        int sum = 0;
+        for(int i = 0; i<tab.length; i++){
+            sum += tab[i];
+        }
+        System.out.println(sum);
+    }
+
     public void sub(int a, int b) {
         int sub = a - b;
         System.out.println(sub);
